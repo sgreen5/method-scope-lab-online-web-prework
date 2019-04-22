@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe "#catch_phrase" do 
   it "puts out a catch phrase" do 
-    phrase = Moody Mansion Museum
+    phrase =
     expect{catch_phrase}.to output("It's-a me, Mario!\n").to_stdout
   end
 end
